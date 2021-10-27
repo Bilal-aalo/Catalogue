@@ -1,0 +1,32 @@
+@import "variables";
+@import "pageun";
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+h4{
+  display: flex;
+  color: #fff;
+  margin: 0 0 0 10px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
