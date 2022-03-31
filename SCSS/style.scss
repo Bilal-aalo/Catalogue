@@ -2,37 +2,34 @@
 @import "pageun";
 @import "print";
 
-
-
-body{
-  width: auto!important;
-  margin: 0!important;
+body {
+  width: auto !important;
+  margin: 0 !important;
   padding: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   border: none;
 }
 
-
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
-ul{
+ul {
   list-style: none;
   display: flex;
   padding: 0;
 }
 
-h4{
+h4 {
   display: flex;
   color: #fff;
   margin: 0 0 0 10px;
 }
 
-h5{
+h5 {
   display: flex;
   color: #fff;
   font-size: 0.6rem;
@@ -40,13 +37,13 @@ h5{
 }
 
 img {
-	max-width: 80%;
-	height: auto;
+  max-width: 80%;
+  height: auto;
   background-size: cover;
   overflow: hidden;
 }
 
-p{
+p {
   font-size: 0.6rem;
   margin: 0;
   color: #2d3436;

@@ -142,8 +142,8 @@
           .page .articles .article-left .text-article-left .description .text-description {
             display: flex;
             width: 100%;
-            height: 80%;
-            padding: 10px 10px;
+            height: 90%;
+            padding: 5px 15px;
             border-radius: 25px 25px 25px 25px;
             overflow: scroll;
             overflow-x: hidden; }
@@ -195,7 +195,7 @@
             width: 100%;
             height: 80%;
             padding: 10px 10px;
-            border-radius: 25px 25px 25px 25px;
+            border-radius: 25px 25px 25px 0px;
             overflow: scroll;
             overflow-x: hidden; }
           .page .articles .article-right .text-article-right .description-right .element-description-right {
@@ -216,7 +216,7 @@
   .page .articles-accessoires {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 7.94cm 7.94cm 7.94cm;
+    grid-template-rows: 7.94cm 7.94cm 7.94cm auto;
     width: 100%;
     overflow: hidden;
     margin: 0;
@@ -237,7 +237,7 @@
         height: 25%;
         border-radius: 25px 25px 0 0;
         justify-content: center;
-        align-items: center; }
+        align-items: flex-end; }
         .page .articles-accessoires .article-accessoire .text-article-accessoire .title-article {
           align-items: center;
           display: flex;
@@ -255,6 +255,8 @@
         overflow: hidden;
         border-radius: 25px;
         justify-content: center; }
+        .page .articles-accessoires .article-accessoire .font-img-accessoire #resize {
+          width: 60%; }
       .page .articles-accessoires .article-accessoire .description {
         display: flex;
         flex-direction: column;
@@ -542,7 +544,7 @@ body {
   padding: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   border: none; }
 
 a {
